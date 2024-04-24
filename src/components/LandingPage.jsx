@@ -19,13 +19,13 @@ const LandingPage = () => {
 </div>
 
 <div className="lg:hidden flex flex-col justify-center items-center h-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]">
-    <div className="w-96">
+    <div className="w-80">
         <div className="text-amber-300 font-modimi text-sm md:text-lg lg:text-xl">&lt;name/&gt;</div>
         <div className="text-lime-50 font-whisper text-4xl md:text-5xl lg:text-8xl">Siddhant</div>
         <div className="text-lime-50 font-whisper text-3xl md:text-4xl lg:text-7xl">Kashyap</div>
         <div className="text-amber-300 font-modimi grid grid-cols-1 place-items-end text-sm md:text-lg lg:text-xl">&lt;name/&gt;</div>
     </div>
-    <div className="w-96">
+    <div className="w-80">
         <div className="text-amber-300 font-modimi text-sm md:text-lg lg:text-xl">&lt;about/&gt;</div>
         <p className="text-lime-50 font-comfortaa text-xs md:text-sm lg:text-base">I am a Software Engineer</p>
         <p className="text-lime-50 font-comfortaa text-xs md:text-sm lg:text-base">Passionate coder dedicated to crafting elegant and efficient solutions through clean code and continuous learning !!!</p>
