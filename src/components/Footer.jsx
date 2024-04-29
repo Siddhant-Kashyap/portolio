@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
           <div>
             <p>
-              <span className="text-xs uppercase tracking-wide text-orange-500">
+              <span className="text-xs uppercase medium tracking-wide text-orange-500">
                 {" "}
                 Call me{" "}
               </span>

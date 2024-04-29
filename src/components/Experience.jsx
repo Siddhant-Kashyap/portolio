@@ -24,11 +24,11 @@ const Experience = () => {
                   </svg>
                 </div>
                 <div className="timeline-start md:text-end mb-10">
-                  <time className="font-mono italic">2022</time>
-                  <div className="text-lg font-extrabold">
+                  <time className="font-mono italic text-white">2022</time>
+                  <div className="text-lg font-extrabold text-white">
                     Android Developer
                   </div>
-                  <p className="font-comfortaa">
+                  <p className="font-comfortaa text-white">
                     As an Android developer at SKBH Apps, I spearheaded the
                     development and UI enhancements of multiple applications,
                     ensuring seamless user experiences. Additionally, I
@@ -55,11 +55,11 @@ const Experience = () => {
                   </svg>
                 </div>
                 <div className="timeline-end mb-10">
-                  <time className="font-mono italic">2023</time>
-                  <div className="text-lg font-black">
+                  <time className="font-mono italic text-white">2023</time>
+                  <div className="text-lg font-black text-white">
                     Global Logic - Intern
                   </div>
-                  <p className="font-comfortaa">                 
+                  <p className="font-comfortaa text-white">                 
                      During my tenure as a full-stack intern at GlobalLogic, I
                   actively participated in the development lifecycle of diverse
                   projects. My responsibilities encompassed both front-end and
@@ -93,11 +93,11 @@ const Experience = () => {
                   </svg>
                 </div>
                 <div className="timeline-start md:text-end mb-10">
-                  <time className="font-mono italic">2023</time>
-                  <div className="text-lg font-black">
+                  <time className="font-mono italic text-white">2023</time>
+                  <div className="text-lg font-black text-white">
                     GlobalLogic -Software Developer
                   </div>
-                  <p className="font-comfortaa">
+                  <p className="font-comfortaa text-white">
                   As a software developer working as a full-stack engineer
                   proficient in React and Node.js, I possess the expertise to
                   architect and implement end-to-end solutions for web
