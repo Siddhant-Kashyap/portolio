@@ -7,10 +7,11 @@ const Navbar = () => {
    
       <div id='nav' className="block md:flex justify-evenly items-center  bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] text-amber-300 font-modimi h-20">
         <div className="flex justify-around">
-          <span className="mr-4"><Link to="home" spy={true} smooth={true} duration={500}>&lt;Home/&gt;</Link></span>
-          <span className="mr-4"><Link to="skill" offset={130} spy={true} smooth={true} duration={500}>&lt;Skills/&gt;</Link></span>
-          <span className="mr-4"><Link to="experience"spy={true} smooth={true} duration={500} >&lt;Experience/&gt;</Link></span>
-          <span> <Link to="project" spy={true} smooth={true} duration={500} offset={50}>&lt;Projects/&gt;</Link></span>
+          <span style={{cursor:'pointer'}} className="mr-4"><Link to="home" spy={true} smooth={true} duration={500}>&lt;Home/&gt;</Link></span>
+          <span style={{cursor:'pointer'}} className="mr-4"><Link to="skill" offset={130} spy={true} smooth={true} duration={500}>&lt;Skills/&gt;</Link></span>
+          <span style={{cursor:'pointer'}} className="mr-4"><Link to="experience"spy={true} smooth={true} duration={500} >&lt;Experience/&gt;</Link></span>
+          <span style={{cursor:'pointer'}} className="mr-4"> <Link to="project" spy={true} smooth={true} duration={500} offset={50}>&lt;Projects/&gt;</Link></span>
+          <span style={{cursor:'pointer'}}> <Link to="/blogs">&lt;Blogs/&gt;</Link></span>
         </div>
         <div className="flex justify-evenly items-center ">
           <span onClick={()=>window.open("https://github.com/Siddhant-Kashyap","_blank")}  className="mr-4 cursor-pointer [&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#c9bcbc]">
